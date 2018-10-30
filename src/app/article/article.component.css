@@ -1,0 +1,38 @@
+p {
+    margin-top: 3em;
+}
+
+.btns {
+    font-size: 1em;
+    background: #c2d9e8;
+    color: #56758b;    
+    padding: 10px;
+}
+
+.article-container {
+    border: 1px solid #e7e7e7;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    margin-left: 15em;
+    margin-right: 15em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.article-image {
+    width: 40%;
+        max-width: 130px;
+        float: left;
+        margin-right: 20px;
+        border-radius: 3px;
+        margin-bottom: 50px;
+        padding: 4px;
+        line-height: 1.428571429;
+        background-color: #ffffff;
+        border: 1px solid #56758b;
+        border-radius: 4px;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+}
+
+

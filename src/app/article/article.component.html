@@ -1,0 +1,16 @@
+<div *ngIf="article">
+  <div class="article-container">
+    <div class="row expanded">
+      <div style="white-space:pre-wrap;" class="small-12 medium-5 columns">
+        <a routerLink="#">{{article.title}}</a>
+        <hr>       
+        <p [innerHTML]=article.content></p>        
+      </div>
+      
+      <div class="small-12 medium-3 columns">
+        <a routerLink="/edit/{{ article._id }}" class="btns">Edit Article</a>
+        <a (click)="deleteArticle(article._id)" class="btns">Delete Article</a>
+      </div>
+    </div>
+  </div>
+</div>
